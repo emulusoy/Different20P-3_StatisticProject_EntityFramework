@@ -94,6 +94,24 @@ namespace Different20P_3_StatisticProject_EntityFramework
             //AKTIF URUN SAYISI
             var active = data.TblProduct.Where(x => x.ProductStatus == true).Count();
             label37.Text=active.ToString();
+
+            //KOLADAN TOPLAM KAZANC 
+            var stockKola = data.TblProduct.Where(x => x.ProductName=="Kola").Select(y=>y.ProductStock).FirstOrDefault();
+            var priceCola= data.TblProduct.Where(x => x.ProductName == "Kola").Select(y => y.ProductPrice).FirstOrDefault();
+            var total=stockKola*priceCola;
+            label33.Text = total.ToString();
+
+
+            //SON siparis veren musteri LABEL35
+
+            var lastCustomer = data.TblOrder.OrderByDescending(x => x.OrderId).Select(y => y.CustomerId).FirstOrDefault();
+            var findCustomer=data.TblCustomer.Where(x=>x.CustomerId==lastCustomer).Select(y => y.CustomerName).FirstOrDefault();
+            label35.Text=findCustomer.ToString();
+
+            //KAC FARKLI ULKE VAR
+
+            var differentCountry = data.TblCustomer.Select(x => x.CustomerCountry).Distinct().Count();
+            label31.Text=differentCountry.ToString();
         }
     }
 }

@@ -65,8 +65,10 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
@@ -86,8 +88,6 @@
             this.panel20 = new System.Windows.Forms.Panel();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -480,6 +480,16 @@
             this.panel13.Size = new System.Drawing.Size(272, 192);
             this.panel13.TabIndex = 14;
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label26.Location = new System.Drawing.Point(-9, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(312, 90);
+            this.label26.TabIndex = 2;
+            this.label26.Text = "MEYVE SATISLARIN \r\nGETIRISI ef";
+            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -499,6 +509,16 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(272, 192);
             this.panel14.TabIndex = 12;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label28.Location = new System.Drawing.Point(4, 11);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(241, 87);
+            this.label28.TabIndex = 2;
+            this.label28.Text = "TURKIYEDEN YAPILAN\r\n TOPLAM SIPARIS SAYISI\r\n EF";
             // 
             // label27
             // 
@@ -566,9 +586,9 @@
             this.label32.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label32.Location = new System.Drawing.Point(15, 11);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(266, 45);
+            this.label32.Size = new System.Drawing.Size(196, 90);
             this.label32.TabIndex = 0;
-            this.label32.Text = "KATEGORI SAYISI";
+            this.label32.Text = "KAC FARKLI \r\nULKE VAR";
             // 
             // panel17
             // 
@@ -593,12 +613,12 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label34.Location = new System.Drawing.Point(15, 11);
+            this.label34.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label34.Location = new System.Drawing.Point(-7, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(254, 45);
+            this.label34.Size = new System.Drawing.Size(275, 78);
             this.label34.TabIndex = 0;
-            this.label34.Text = "MUSTERI SAYISI";
+            this.label34.Text = "KOLADAN TOPLAM\r\n KAZANC NE KADAR";
             // 
             // panel18
             // 
@@ -624,11 +644,11 @@
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label36.Location = new System.Drawing.Point(29, 11);
+            this.label36.Location = new System.Drawing.Point(27, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(233, 45);
+            this.label36.Size = new System.Drawing.Size(235, 90);
             this.label36.TabIndex = 0;
-            this.label36.Text = "SIPARIS  SAYISI";
+            this.label36.Text = "SON siparis\r\n veren musteri";
             // 
             // panel19
             // 
@@ -690,31 +710,11 @@
             this.label40.TabIndex = 0;
             this.label40.Text = "SON URUNUN\r\n KATEGORISI";
             // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label28.Location = new System.Drawing.Point(4, 11);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(241, 87);
-            this.label28.TabIndex = 2;
-            this.label28.Text = "TURKIYEDEN YAPILAN\r\n TOPLAM SIPARIS SAYISI\r\n EF";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label26.Location = new System.Drawing.Point(-9, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(312, 90);
-            this.label26.TabIndex = 2;
-            this.label26.Text = "MEYVE SATISLARIN \r\nGETIRISI ef";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1563, 966);
+            this.ClientSize = new System.Drawing.Size(1522, 912);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel17);
